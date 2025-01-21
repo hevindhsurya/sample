@@ -5,9 +5,9 @@ git commit -m "commit message"  //commiting the file to the git local repo
 git push origin branchName      //pushing the file to the original github repo in the respective branch
 git pull                        //getting the changes made in the github
 git init                        //creating a repo through the command line
-git remote add link             //adding the origin link to the folder that is created
+git remote add origin link      //adding the origin link to the folder that is created
 git status                      //check the status 
-git branch -M                   //to change the branchName
+git branch -M branchName        //to change the branchName
 git branch -a                   //to check all the branchs in the repo
 git branch                      //to check the current branch
 git checkout newBranchName      //to switch from current branch to the another branch
@@ -15,3 +15,4 @@ git diff branchName             //to check the difference bt main branch and the
 git merge branchName            //to merge the other branch to the main branch
 git branch newBranchName        //to create new branch
 git pull origin main            //to pull the changes made in the main branch file to the current branch file
+git rm --cached fileName        //to unstage the file
